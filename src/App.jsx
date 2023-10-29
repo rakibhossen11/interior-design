@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './pages/Hero'
 import Services from './pages/Services'
+import Products from './pages/Products'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <Hero />
       <Services />
+      <Products />
     </>
   )
 }
