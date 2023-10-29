@@ -21,15 +21,15 @@ const Hero = () => {
 
   return (
     <div
-      className="h-screen relative flex flex-col items-center"
-      style={{
-        background: `url(${heroImage})`,
-        backgroundPosition: "bottom",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
+      className={`h-screen relative flex flex-col items-center bg-black`}
+    //   style={{
+    //     background: `url(${heroImage})`,
+    //     backgroundPosition: "bottom",
+    //     backgroundRepeat: "no-repeat",
+    //     backgroundSize: "cover",
+    //   }}
     >
-      <div
+      <div 
         className="relative w-full max-w-[1490px] flex 
         items-center justify-between pt-10 mx-auto px-10"
       >
